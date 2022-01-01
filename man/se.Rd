@@ -13,8 +13,10 @@ se(x)
 Numeric value
 }
 \description{
-Standard error of a sample mean
+Calculates the standard error of a sample mean. Note \code{NA} values are
+automatically omitted by default.
 }
 \examples{
 se(1:5)
+se(c(1:3,NA,4:5))
 }
